@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Nextpage</class>
+ <widget class="QDialog" name="Nextpage">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1247</width>
+    <height>715</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Welcome</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>294</x>
+     <y>458</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>181</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>24</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+color:black;
+	
+	background-color: rgb(57, 155, 182);
+	border: 3px solid white;
+	
+	
+	
+	border-radius:12px;
+	border-color: rgb(255, 255, 255);
+
+}
+QPushButton:hover {
+    
+	
+	
+	background-color: rgb(255, 255, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>USER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>294</x>
+     <y>212</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>181</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>24</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+color:black;
+	
+background-color: rgb(245, 65, 5);
+	border-radius:12px;
+	
+	border: 3px solid white;
+
+}
+QPushButton:hover {
+    
+	
+	background-color: rgb(255, 255, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>ADMIN</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelforpic">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1280</width>
+     <height>720</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/PICS/pg2.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>labelforpic</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

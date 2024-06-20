@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>User</class>
+ <widget class="QDialog" name="User">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>User</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>180</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	color: rgb(255, 255, 255);
+	
+	
+	
+	background-color: rgb(117, 55, 202);
+	border-radius:20px;
+	
+	border: 3px solid white;
+
+}
+QPushButton:hover {
+    
+	
+	
+	background-color: rgb(108, 59, 206);
+}</string>
+   </property>
+   <property name="text">
+    <string>Buy Ticket</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>320</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	color: rgb(255, 255, 255);
+	
+	
+	
+	
+	background-color: rgb(250, 75, 75);
+	border-radius: 15px;
+	
+	border: 3px solid white;
+
+}
+QPushButton:hover {
+    
+	
+	
+	background-color: rgb(108, 59, 206);
+}</string>
+   </property>
+   <property name="text">
+    <string>Search Trains</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>470</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	color: rgb(255, 255, 255);
+	
+	
+	
+	
+	background-color: rgb(255, 33, 172);
+	border-radius:20px;
+	
+	border: 3px solid white;
+
+}
+QPushButton:hover {
+    
+	
+	
+	background-color: rgb(108, 59, 206);
+}</string>
+   </property>
+   <property name="text">
+    <string>Check Seats</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelofpic">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1280</width>
+     <height>720</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/PICS/pg4.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>labelofpic</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

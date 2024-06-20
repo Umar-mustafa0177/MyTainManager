@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>PICS/manage admin.jpg</file>
+        <file>PICS/pg2.jpg</file>
+        <file>PICS/pg3.jpg</file>
+        <file>PICS/pg4.jpg</file>
+        <file>PICS/welcome.png.jpg</file>
+        <file>PICS/seats wala.jpg</file>
+        <file>PICS/seatspage.jpg</file>
+    </qresource>
+</RCC>
